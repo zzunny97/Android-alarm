@@ -1,0 +1,153 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/src/main/AndroidManifest.xml:2:1-28:12
+MERGED from [com.android.support:design:25.1.0] /Users/park/.gradle/caches/transforms-1/files-1.1/design-25.1.0.aar/67316142c1c737b3cab2ea284ced5a6b/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:appcompat-v7:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/80b9c6334e152ae2999b270c6437f9fd/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:recyclerview-v7:25.1.0] /Users/park/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.1.0.aar/0b26ff7107e52e94a89c838968d09c99/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:25.1.0] /Users/park/.gradle/caches/transforms-1/files-1.1/transition-25.1.0.aar/9c02ded470faeece229b19236b367dd9/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-v4:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/4c6b3a33a1d3da431ddb666b129e1624/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/c066c80e7630bc3ccccc6472ee3c00be/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/843712e3d8eefad29ee4d49f3a7dc6d8/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/f23848ae4e3906372c71de510a551067/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/9a2055e128e5bd81ba554b00096a8318/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/891675c5aaf9acf6e7a73c4b6b7dbb01/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-core-ui:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/99cb79069144acb8daa5eee517acdd16/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/98fcf3919c4dbd6338db8e8cacc861dd/AndroidManifest.xml:17:1-31:12
+INJECTED from /Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/src/main/AndroidManifest.xml:2:1-28:12
+	package
+		ADDED from /Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/src/main/AndroidManifest.xml:3:5-44
+		INJECTED from /Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/src/main/AndroidManifest.xml
+		ADDED from /Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/src/main/AndroidManifest.xml:2:1-28:12
+		INJECTED from /Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/src/main/AndroidManifest.xml
+		ADDED from /Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/src/main/AndroidManifest.xml:2:1-28:12
+		INJECTED from /Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/src/main/AndroidManifest.xml:5:5-26:19
+MERGED from [com.android.support:design:25.1.0] /Users/park/.gradle/caches/transforms-1/files-1.1/design-25.1.0.aar/67316142c1c737b3cab2ea284ced5a6b/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:design:25.1.0] /Users/park/.gradle/caches/transforms-1/files-1.1/design-25.1.0.aar/67316142c1c737b3cab2ea284ced5a6b/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/80b9c6334e152ae2999b270c6437f9fd/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/80b9c6334e152ae2999b270c6437f9fd/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:transition:25.1.0] /Users/park/.gradle/caches/transforms-1/files-1.1/transition-25.1.0.aar/9c02ded470faeece229b19236b367dd9/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:transition:25.1.0] /Users/park/.gradle/caches/transforms-1/files-1.1/transition-25.1.0.aar/9c02ded470faeece229b19236b367dd9/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/4c6b3a33a1d3da431ddb666b129e1624/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/4c6b3a33a1d3da431ddb666b129e1624/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/c066c80e7630bc3ccccc6472ee3c00be/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/c066c80e7630bc3ccccc6472ee3c00be/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/843712e3d8eefad29ee4d49f3a7dc6d8/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/843712e3d8eefad29ee4d49f3a7dc6d8/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/f23848ae4e3906372c71de510a551067/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/f23848ae4e3906372c71de510a551067/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/9a2055e128e5bd81ba554b00096a8318/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/9a2055e128e5bd81ba554b00096a8318/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/891675c5aaf9acf6e7a73c4b6b7dbb01/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/891675c5aaf9acf6e7a73c4b6b7dbb01/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-core-ui:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/99cb79069144acb8daa5eee517acdd16/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/99cb79069144acb8daa5eee517acdd16/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/98fcf3919c4dbd6338db8e8cacc861dd/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/98fcf3919c4dbd6338db8e8cacc861dd/AndroidManifest.xml:25:5-29:19
+	android:supportsRtl
+		ADDED from /Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/src/main/AndroidManifest.xml:9:9-35
+	android:label
+		ADDED from /Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/src/main/AndroidManifest.xml:8:9-41
+	android:icon
+		ADDED from /Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/src/main/AndroidManifest.xml:10:9-40
+activity#com.example.user.mynavigation.MainActivity
+ADDED from /Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/src/main/AndroidManifest.xml:11:9-15:24
+	android:label
+		ADDED from /Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/src/main/AndroidManifest.xml:13:13-45
+	android:theme
+		ADDED from /Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/src/main/AndroidManifest.xml:14:13-56
+	android:name
+		ADDED from /Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/src/main/AndroidManifest.xml:12:13-41
+activity#com.example.user.mynavigation.intro
+ADDED from /Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/src/main/AndroidManifest.xml:16:9-24:20
+	android:name
+		ADDED from /Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/src/main/AndroidManifest.xml:16:19-40
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/src/main/AndroidManifest.xml:20:13-23:29
+action#android.intent.action.MAIN
+ADDED from /Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/src/main/AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from /Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/src/main/AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/src/main/AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from /Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/src/main/AndroidManifest.xml:22:27-74
+uses-sdk
+INJECTED from /Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/src/main/AndroidManifest.xml
+INJECTED from /Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:25.1.0] /Users/park/.gradle/caches/transforms-1/files-1.1/design-25.1.0.aar/67316142c1c737b3cab2ea284ced5a6b/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.1.0] /Users/park/.gradle/caches/transforms-1/files-1.1/design-25.1.0.aar/67316142c1c737b3cab2ea284ced5a6b/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/80b9c6334e152ae2999b270c6437f9fd/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/80b9c6334e152ae2999b270c6437f9fd/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:recyclerview-v7:25.1.0] /Users/park/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.1.0.aar/0b26ff7107e52e94a89c838968d09c99/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.1.0] /Users/park/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.1.0.aar/0b26ff7107e52e94a89c838968d09c99/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.1.0] /Users/park/.gradle/caches/transforms-1/files-1.1/transition-25.1.0.aar/9c02ded470faeece229b19236b367dd9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.1.0] /Users/park/.gradle/caches/transforms-1/files-1.1/transition-25.1.0.aar/9c02ded470faeece229b19236b367dd9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/4c6b3a33a1d3da431ddb666b129e1624/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/4c6b3a33a1d3da431ddb666b129e1624/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/c066c80e7630bc3ccccc6472ee3c00be/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/c066c80e7630bc3ccccc6472ee3c00be/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/843712e3d8eefad29ee4d49f3a7dc6d8/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/843712e3d8eefad29ee4d49f3a7dc6d8/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/f23848ae4e3906372c71de510a551067/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/f23848ae4e3906372c71de510a551067/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/9a2055e128e5bd81ba554b00096a8318/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/9a2055e128e5bd81ba554b00096a8318/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/891675c5aaf9acf6e7a73c4b6b7dbb01/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/891675c5aaf9acf6e7a73c4b6b7dbb01/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/99cb79069144acb8daa5eee517acdd16/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/99cb79069144acb8daa5eee517acdd16/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/98fcf3919c4dbd6338db8e8cacc861dd/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/98fcf3919c4dbd6338db8e8cacc861dd/AndroidManifest.xml:21:5-23:58
+INJECTED from /Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/src/main/AndroidManifest.xml
+INJECTED from /Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.1.0] /Users/park/.gradle/caches/transforms-1/files-1.1/design-25.1.0.aar/67316142c1c737b3cab2ea284ced5a6b/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/src/main/AndroidManifest.xml
+		ADDED from /Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/src/main/AndroidManifest.xml
+		ADDED from /Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/80b9c6334e152ae2999b270c6437f9fd/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/4c6b3a33a1d3da431ddb666b129e1624/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/4c6b3a33a1d3da431ddb666b129e1624/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/c066c80e7630bc3ccccc6472ee3c00be/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/c066c80e7630bc3ccccc6472ee3c00be/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/843712e3d8eefad29ee4d49f3a7dc6d8/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/843712e3d8eefad29ee4d49f3a7dc6d8/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/f23848ae4e3906372c71de510a551067/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/f23848ae4e3906372c71de510a551067/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/9a2055e128e5bd81ba554b00096a8318/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/9a2055e128e5bd81ba554b00096a8318/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/891675c5aaf9acf6e7a73c4b6b7dbb01/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/891675c5aaf9acf6e7a73c4b6b7dbb01/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-core-ui:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/99cb79069144acb8daa5eee517acdd16/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/99cb79069144acb8daa5eee517acdd16/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/98fcf3919c4dbd6338db8e8cacc861dd/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/98fcf3919c4dbd6338db8e8cacc861dd/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/80b9c6334e152ae2999b270c6437f9fd/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.4.0] /Users/park/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/80b9c6334e152ae2999b270c6437f9fd/AndroidManifest.xml:27:13-51
