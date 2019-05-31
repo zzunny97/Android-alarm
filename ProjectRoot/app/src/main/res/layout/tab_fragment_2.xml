@@ -30,17 +30,17 @@
 
         <TimePicker
 
-            android:background="@drawable/border"
             android:id="@+id/time"
             android:layout_width="match_parent"
             android:layout_height="100dp"
+            android:background="@drawable/border"
             android:timePickerMode='spinner' />
 
         <LinearLayout
 
-            android:background="@drawable/border"
             android:layout_width="match_parent"
             android:layout_height="50dp"
+            android:background="@drawable/border"
             android:orientation="horizontal">
 
             <Button
@@ -74,9 +74,9 @@
 
         <LinearLayout
 
-            android:background="@drawable/border"
             android:layout_width="match_parent"
             android:layout_height="50dp"
+            android:background="@drawable/border"
             android:orientation="horizontal">
 
             <Button
@@ -109,19 +109,19 @@
         </LinearLayout>
 
         <Switch
-            android:background="@drawable/border"
             android:id="@+id/switch1"
             android:layout_width="match_parent"
             android:layout_height="100dp"
+            android:background="@drawable/border"
             android:text="반복설정"
             android:textAppearance="@style/TextAppearance.AppCompat.Button"
             android:textSize="30sp" />
 
         <Switch
-            android:background="@drawable/border"
             android:id="@+id/switch2"
             android:layout_width="match_parent"
             android:layout_height="100dp"
+            android:background="@drawable/border"
             android:text="10분 전 팝업 및 진동"
             android:textSize="30sp" />
 
@@ -131,21 +131,19 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button19"
+                android:id="@+id/quit"
                 android:layout_width="wrap_content"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:text="뒤로가기" />
+                android:text="삭제" />
 
             <Button
-                android:id="@+id/button18"
+                android:id="@+id/add"
                 android:layout_width="wrap_content"
                 android:layout_height="50dp"
                 android:layout_weight="1"
                 android:text="추가" />
         </LinearLayout>
-
-
 
 
     </LinearLayout>

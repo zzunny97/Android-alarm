@@ -1,13 +1,13 @@
 #Internal package file, do not edit.
-#Fri May 31 16:01:47 KST 2019
+#Fri May 31 19:09:42 KST 2019
 2.base=/Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/build/intermediates/transforms/dexMerger/debug/13
 5.set=DEX
 0.path=classes.dex
 2.baseType=DIRECTORY
-3.base=/Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/build/intermediates/transforms/dexMerger/debug/17
+3.base=/Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/build/intermediates/transforms/dexMerger/debug/14
 2.set=DEX
 1.path=classes.dex
-4.base=/Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/build/intermediates/transforms/dexMerger/debug/14
+4.base=/Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/build/intermediates/transforms/dexMerger/debug/11
 count=6
 5.baseType=DIRECTORY
 2.path=classes.dex

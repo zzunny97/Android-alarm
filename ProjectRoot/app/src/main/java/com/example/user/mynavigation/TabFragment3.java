@@ -1,8 +1,5 @@
 package com.example.user.mynavigation;
 
-/**
- * Created by user on 2016-12-26.
- */
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
