@@ -1,10 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml",
+            "outputFile": "C:\\Users\\park\\Desktop\\2019.1\\android\\term project\\git_dir\\AndroidTermProject\\ProjectRoot\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-v4\\values-xlarge-v4.xml",
             "map": [
                 {
-                    "source": "/Users/park/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/d631e04b1c3c04a1ec9fadc05f58036c/res/values-xlarge-v4/values-xlarge-v4.xml",
+                    "source": "C:\\Users\\park\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\d631e04b1c3c04a1ec9fadc05f58036c\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,126,197,267,337,405",
+                        "endColumns": "70,70,69,69,67,67",
+                        "endOffsets": "121,192,262,332,400,468"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\H2L\\Documents\\GitHub\\AndroidTermProject\\ProjectRoot\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-v4\\values-xlarge-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\H2L\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\60b9440b72e1bdc1f9ee490c34e00438\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",

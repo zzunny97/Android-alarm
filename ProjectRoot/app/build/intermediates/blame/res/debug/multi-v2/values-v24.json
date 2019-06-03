@@ -1,10 +1,42 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
+            "outputFile": "C:\\Users\\H2L\\Documents\\GitHub\\AndroidTermProject\\ProjectRoot\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "/Users/park/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/d631e04b1c3c04a1ec9fadc05f58036c/res/values-v24/values-v24.xml",
+                    "source": "C:\\Users\\H2L\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\b89899a115dac773203616cbe9b85410\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,121,182,248",
+                        "endColumns": "65,60,65,66",
+                        "endOffsets": "116,177,243,310"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "347,413,474,540",
+                        "endColumns": "65,60,65,66",
+                        "endOffsets": "408,469,535,602"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\H2L\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\60b9440b72e1bdc1f9ee490c34e00438\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,212",
+                        "endColumns": "156,134",
+                        "endOffsets": "207,342"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\park\\Desktop\\2019.1\\android\\term project\\git_dir\\AndroidTermProject\\ProjectRoot\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\park\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\d631e04b1c3c04a1ec9fadc05f58036c\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

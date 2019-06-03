@@ -1,10 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml",
+            "outputFile": "C:\\Users\\park\\Desktop\\2019.1\\android\\term project\\git_dir\\AndroidTermProject\\ProjectRoot\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h720dp-v13\\values-h720dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/park/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/d631e04b1c3c04a1ec9fadc05f58036c/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "source": "C:\\Users\\park\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\d631e04b1c3c04a1ec9fadc05f58036c\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\H2L\\Documents\\GitHub\\AndroidTermProject\\ProjectRoot\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h720dp-v13\\values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\H2L\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\60b9440b72e1bdc1f9ee490c34e00438\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

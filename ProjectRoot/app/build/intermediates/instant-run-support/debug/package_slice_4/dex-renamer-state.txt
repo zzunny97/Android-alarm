@@ -1,4 +1,4 @@
-#Mon Jun 03 15:32:41 KST 2019
-base.0=/Users/park/Desktop/2019.1/android/term project/git_dir/AndroidTermProject/ProjectRoot/app/build/intermediates/transforms/dexMerger/debug/5
+#Tue Jun 04 01:42:30 KST 2019
+base.0=C\:\\Users\\H2L\\Documents\\GitHub\\AndroidTermProject\\ProjectRoot\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\5
 path.0=classes.dex
 renamed.0=classes.dex

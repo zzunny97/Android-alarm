@@ -17,12 +17,17 @@ import android.widget.EditText;
 import android.widget.TimePicker;
 import android.widget.Toast;
 
+import com.google.firebase.database.DatabaseReference;
+
 import java.util.Calendar;
+import java.util.HashMap;
+import java.util.Map;
 
 import static android.content.Context.ALARM_SERVICE;
 
 // This class is for second fragment which is for setting the alarm time, day, repeat and additional configuration
 public class TabFragment2<checked_days> extends Fragment{
+    private DatabaseReference mPostReference;
     AlarmManager alarmManager;
     TimePicker timePicker;
     PendingIntent pendingIntent;
@@ -56,40 +61,57 @@ public class TabFragment2<checked_days> extends Fragment{
         sun = (CheckBox)view.findViewById(R.id.cb_sun);
         every = (CheckBox)view.findViewById(R.id.cb_everyday);
 
+        final String planName = planET.getText().toString();
+
         for(int i=0; i<8; i++) checked_days[i] = false;
 
         button_add_alarm.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                calendar.set(Calendar.HOUR_OF_DAY, timePicker.getHour());
-                calendar.set(Calendar.MINUTE, timePicker.getMinute());
-                int hour = timePicker.getHour();
-                int minute = timePicker.getMinute();
+                                                @Override
+                                                public void onClick(View view) {
+                                                    calendar.set(Calendar.HOUR_OF_DAY, timePicker.getHour());
+                                                    calendar.set(Calendar.MINUTE, timePicker.getMinute());
+                                                    int hour = timePicker.getHour();
+                                                    int minute = timePicker.getMinute();
 
-                Toast.makeText(context, "Alarm 예정 " + hour + "시 " + minute + "분",Toast.LENGTH_SHORT).show();
+                                                    Toast.makeText(context, "Alarm 예정 " + hour + "시 " + minute + "분", Toast.LENGTH_SHORT).show();
 
-                receiver_intent.putExtra("state", "alarm on");
+                                                    receiver_intent.putExtra("state", "alarm on");
 
-                pendingIntent = PendingIntent.getBroadcast(context, 0, receiver_intent, PendingIntent.FLAG_UPDATE_CURRENT);
+                                                    pendingIntent = PendingIntent.getBroadcast(context, 0, receiver_intent, PendingIntent.FLAG_UPDATE_CURRENT);
 
-                alarmManager.set(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(), pendingIntent);
+                                                    alarmManager.set(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(), pendingIntent);
 
-                String planName = planET.getText().toString();
 
-                if(mon.isChecked()) checked_days[0] = true;
-                if(tue.isChecked()) checked_days[1] = true;
-                if(wed.isChecked()) checked_days[2] = true;
-                if(thu.isChecked()) checked_days[3] = true;
-                if(fri.isChecked()) checked_days[4] = true;
-                if(sat.isChecked()) checked_days[5] = true;
-                if(sun.isChecked()) checked_days[6] = true;
-                if(every.isChecked()) checked_days[7] = true;
 
-                ((MainActivity)getActivity()).addPlanItem(planName, String.valueOf(hour), String.valueOf(minute), checked_days);
-                Toast.makeText(context, "add Plan 완료", Toast.LENGTH_SHORT).show();
+                                                    if (mon.isChecked()) checked_days[0] = true;
+                                                    if (tue.isChecked()) checked_days[1] = true;
+                                                    if (wed.isChecked()) checked_days[2] = true;
+                                                    if (thu.isChecked()) checked_days[3] = true;
+                                                    if (fri.isChecked()) checked_days[4] = true;
+                                                    if (sat.isChecked()) checked_days[5] = true;
+                                                    if (sun.isChecked()) checked_days[6] = true;
+                                                    if (every.isChecked()) checked_days[7] = true;
 
-            }
-        });
+                                                    ((MainActivity) getActivity()).addPlanItem(planName, String.valueOf(hour), String.valueOf(minute), checked_days);
+                                                    postFirebaseDatabase(true);
+                                                    Toast.makeText(context, "add Plan 완료", Toast.LENGTH_SHORT).show();
+
+                                                }
+
+
+                                                public void postFirebaseDatabase(boolean add) {
+                                                    Map<String, Object> childUpdates = new HashMap<>();
+                                                    Map<String, Object> postValues = null;
+                                                    if (add) {
+                                                        int hour = timePicker.getHour();
+                                                        int minute = timePicker.getMinute();
+                                                        FirebasePost post = new FirebasePost(planName, String.valueOf(hour), String.valueOf(minute), checked_days);
+                                                        postValues = post.toMap();
+                                                    }
+                                                    childUpdates.put("/planName_list/" + planName, postValues);
+                                                    mPostReference.updateChildren(childUpdates);
+                                                }
+                                            });
 
         button_quit_alarm.setOnClickListener(new View.OnClickListener() {
             @Override
