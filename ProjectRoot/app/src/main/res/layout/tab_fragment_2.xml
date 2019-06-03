@@ -17,7 +17,7 @@
 
         <EditText
 
-            android:id="@+id/textView2"
+            android:id="@+id/planedittext"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:background="@drawable/border"
@@ -43,29 +43,29 @@
             android:background="@drawable/border"
             android:orientation="horizontal">
 
-            <Button
-                android:id="@+id/button1"
+            <CheckBox
+                android:id="@+id/cb_mon"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Mon" />
 
-            <Button
-                android:id="@+id/button2"
+            <CheckBox
+                android:id="@+id/cb_tue"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Tue" />
 
-            <Button
-                android:id="@+id/button3"
+            <CheckBox
+                android:id="@+id/cb_wed"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Wed" />
 
-            <Button
-                android:id="@+id/button4"
+            <CheckBox
+                android:id="@+id/cb_thu"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -79,29 +79,29 @@
             android:background="@drawable/border"
             android:orientation="horizontal">
 
-            <Button
-                android:id="@+id/button5"
+            <CheckBox
+                android:id="@+id/cb_fri"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Fri" />
 
-            <Button
-                android:id="@+id/button6"
+            <CheckBox
+                android:id="@+id/cb_sat"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Sat" />
 
-            <Button
-                android:id="@+id/button7"
+            <CheckBox
+                android:id="@+id/cb_sun"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Sun" />
 
-            <Button
-                android:id="@+id/button8"
+            <CheckBox
+                android:id="@+id/cb_everyday"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"

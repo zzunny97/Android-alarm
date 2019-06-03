@@ -13,6 +13,7 @@ import android.os.IBinder;
 import android.support.annotation.Nullable;
 import android.support.v4.app.NotificationCompat;
 import android.view.View;
+import android.widget.Toast;
 
 public class RingtonePlayingService extends Service {
     MediaPlayer mediaPlayer;
@@ -39,6 +40,11 @@ public class RingtonePlayingService extends Service {
                     .setSmallIcon(R.mipmap.ic_launcher).build();
 
             startForeground(1, notification);
+        }
+
+        // sdk version is lower than 26
+        else {
+            Toast.makeText(this, "알람음이 재생됩니다", Toast.LENGTH_SHORT).show();
         }
     }
 

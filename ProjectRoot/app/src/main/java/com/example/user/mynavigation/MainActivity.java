@@ -7,9 +7,15 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity
-    {
+{
+    TabFragment1 fragment1;
+    TabFragment2 fragment2;
+    TabFragment3 fragment3;
+    Fragment[] fragments_array;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,16 +28,23 @@ public class MainActivity extends AppCompatActivity
         tabLayout.addTab(tabLayout.newTab().setText("통계"));
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
+        fragments_array = new Fragment[3];
+        fragments_array[0] = new TabFragment1();
+        fragments_array[1] = new TabFragment2();
+        fragments_array[2] = new TabFragment3();
+        fragment1 = (TabFragment1)fragments_array[0];
+        fragment2 = (TabFragment2)fragments_array[1];
+        fragment3 = (TabFragment3)fragments_array[2];
+
         final ViewPager viewPager = (ViewPager) findViewById(R.id.pager);
-        final PagerAdapter adapter = new PagerAdapter
-                (getSupportFragmentManager(), tabLayout.getTabCount());
+        final PagerAdapter adapter = new PagerAdapter(getSupportFragmentManager(), tabLayout.getTabCount(), fragments_array);
         viewPager.setAdapter(adapter);
         viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
         tabLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
                 viewPager.setCurrentItem(tab.getPosition());
-                TabFragment1 fragment1 = new TabFragment1();
+                //TabFragment1 fragment1 = new TabFragment1();
             }
 
             @Override
@@ -46,14 +59,13 @@ public class MainActivity extends AppCompatActivity
         });
     }
 
+    public void addPlanItem(String planName, String time, String minute, boolean[] check_days) {
+        Toast.makeText(this, "addPlanItem 함수", Toast.LENGTH_SHORT).show();
+        Log.d("addPlanItem ", planName + time + minute);
+        fragment1.addPlan(planName, time, minute, check_days);
+    }
 
 
-    @SuppressWarnings("StatementWithEmptyBody")
-
-
-    /**
-     * A placeholder fragment containing a simple view.
-     */
     public static class PlaceholderFragment extends Fragment {
         /**
          * The fragment argument representing the section number for this
@@ -103,15 +115,16 @@ public class MainActivity extends AppCompatActivity
             public CharSequence getPageTitle(int position) {
                 switch (position) {
                     case 0:
-                        TabFragment1 tab1 = new TabFragment1();
+                        //TabFragment1 tab1 = new TabFragment1();
                     case 1:
-                        TabFragment2 tab2 = new TabFragment2();
+                        //TabFragment2 tab2 = new TabFragment2();
                     case 2:
-                        TabFragment3 tab3 = new TabFragment3();
+                        //TabFragment3 tab3 = new TabFragment3();
                 }
                 return null;
             }
         }
     }
+
 }
 

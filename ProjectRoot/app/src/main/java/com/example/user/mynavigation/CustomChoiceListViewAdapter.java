@@ -1,6 +1,7 @@
 package com.example.user.mynavigation;
 
 import android.content.Context;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,6 +13,7 @@ import java.util.ArrayList;
 
 
 public class CustomChoiceListViewAdapter extends BaseAdapter {
+
     private ArrayList<ListViewItem> listViewItemList = new ArrayList<ListViewItem>();
 
     @Override
@@ -51,7 +53,9 @@ public class CustomChoiceListViewAdapter extends BaseAdapter {
         ListViewItem item = new ListViewItem();
 
         item.setText(text);
+        Log.d("들어가는 스트링", text);
         listViewItemList.add(item);
+
     }
 
 }
